@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Вы ждали, мы подготовили. Старт уже близко.">
+    <meta name="author" content="http://choco-pixel.com">
+    <title>Master Up, Swift-курс</title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.min.css" rel="stylesheet">
+    <link href="css/ladda-themeless.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+
+
+    <link href="settings-panel.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="text-center">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Main -->
+<section class="main text-center" id="home">
+    <div class="page">
+        <div class="wrapper">
+            <div class="container">
+                <img src="img/logo/logo.png" alt="Logo">
+                <h1 class="heading">Swift-курс</h1>
+                <p>
+                    1 сентября в 19:00 (по киевскому времени) пройдет первая открытая онлайн лекция.
+                </p>
+                <div class="row">
+                    <div id="countdown"></div>
+                </div>
+                <!-- Subscription form -->
+                <form class="form-inline signup" action="php/signupForm.php" role="form" id="signupForm">
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Электропочта">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Зарегистрироваться!</span></button>
+                    </div>
+                </form>
+                <footer class="text-center">
+                    <div class="social">
+                        <a href="https://www.facebook.com/MasterUpCourses" class="btn btn-theme" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/masterupcourses/" class="btn btn-theme"  target="_blank"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </footer>
+            </div>
+            <div class="arrow-down">
+                <a class="scroll" href="#about" id="scroll"><i class="fa fa-angle-double-down"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Что будет на курсах</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="lead">
+                    Swift — новый блокбастер от Apple, который закладывает фундамент для быстрой и качественной разработки под платформу iOS на десятилетия.
+                </p>
+
+                <p>Этот курс поможет вам быстро и качественно научится создавать приложения используя Swift.
+                </p>
+                <div class="row">
+                    <div class="col-sm-4 feature-box-container">
+                        <div class="feature-box wow fadeInDown">
+                            <div class="icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="description">
+                                <h4>Детально</h4>
+                                <p>Синтаксис, особенности языка, Cocoa touch, iOS 8 — мы изучим все для создания полноценных приложений.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 feature-box-container">
+                        <div class="feature-box wow fadeInDown" data-wow-delay="0.2s">
+                            <div class="icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="description">
+                                <h4>Практично</h4>
+                                <p>
+                                    Разработка проекта с нуля. Это поможет нам рассмотреть полный цикл — от идеи до размещения в app store.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 feature-box-container">
+                        <div class="feature-box wow fadeInDown" data-wow-delay="0.4s">
+                            <div class="icon">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <div class="description">
+                                <h4>Интересно</h4>
+                                <p> Быстро создавать качественные приложения для iOS — это весело и легко. Вам понравится!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- Free Lecture -->
+<section id="free" class="section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Открытая лекция</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="lead">
+                    Первая открытая и бесплатная лекция состоится в 19:00 по киевскому времени. Она будет проходить в режиме вебинара с использованием gotowebinar. Ссылка на участие будет разослана всем зарегистрированым на этом сайте.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- Basic Block -->
+<section id="basic" class="section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Участие в Basic блоке</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="lead">
+                    На протяжении 5 закрытых лекций, мы напишем приложение с нуля. Рассмотрим на практике применение языка и особенностей использования в Cocoa.
+                </p>
+
+                <p class="lead">
+                    Подойдет всем у кого есть опыт разработки, но нет времени искать качественные материалы и просеивать интернет по крупинкам.
+                </p>
+
+                <p>Включает в себя, посещение онлайн лекций, эспресс контрольные, домашние задания и возможность скачать запись лекций.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="section-title">1400 грн (100$)</h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <form method="POST" accept-charset="utf-8" action="https://www.liqpay.com/api/pay">
+                    <input type="hidden" name="public_key" value="i4105549579" />
+                    <input type="hidden" name="amount" value="1400" />
+                    <input type="hidden" name="currency" value="UAH" />
+                    <input type="hidden" name="description" value="Swift-Basic" />
+                    <input type="hidden" name="type" value="buy" />
+                    <input type="hidden" name="pay_way" value="card,delayed" />
+                    <input type="hidden" name="language" value="ru" />
+                    <input type="image" src="//static.liqpay.com/buttons/p1ru.radius.png" name="btn_text" />
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Pro Block -->
+<section id="pro" class="section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Участие в PRO блоке</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="lead">Всем участникам PRO блока, будет назначен индивидуальный помощник, который в индивидуальном режиме будет асситировать на протяжения курса, а так же проверять домашние задания и всячески помогать постигать язык и платформу.
+                </p>
+
+                <p class="lead">
+                    Отличный вариант если у вас не много опыта в разработке ПО либо необходима поддержка опытных практиков.
+                </p>
+
+                <p>Включает в себя все из Basic блока, а так же индивидуальную проверку домашних заданий, поддержку написания своего проекта, а так же возможность разместить приложение в app store.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="section-title">2800 грн (200$)</h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <form method="POST" accept-charset="utf-8" action="https://www.liqpay.com/api/pay">
+                    <input type="hidden" name="public_key" value="i4105549579" />
+                    <input type="hidden" name="amount" value="2800" />
+                    <input type="hidden" name="currency" value="UAH" />
+                    <input type="hidden" name="description" value="Swift-Pro" />
+                    <input type="hidden" name="type" value="buy" />
+                    <input type="hidden" name="pay_way" value="card,delayed" />
+                    <input type="hidden" name="language" value="ru" />
+                    <input type="image" src="//static.liqpay.com/buttons/p1ru.radius.png" name="btn_text" />
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- Subscription Block -->
+<section id="subscription" class="section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Участие в Subscription блоке</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="lead">Это только первый из нашего цикла курсов по платформе iOS и языку Swift. Если вы хотите получать все материалы и работать над курсом в любое удобное вам время индивидуально с ассистетом - этот вариан для вас</p>
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="section-title">5600 грн (400$)</h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <form method="POST" accept-charset="utf-8" action="https://www.liqpay.com/api/pay">
+                    <input type="hidden" name="public_key" value="i4105549579" />
+                    <input type="hidden" name="amount" value="5600" />
+                    <input type="hidden" name="currency" value="UAH" />
+                    <input type="hidden" name="description" value="Subscription" />
+                    <input type="hidden" name="type" value="subscribe" />
+                    <input type="hidden" name="pay_way" value="card,delayed" />
+                    <input type="hidden" name="language" value="ru" />
+                    <input type="hidden" name="subscribe_date_start" value="2014-09-01 00:00:00" />
+                    <input type="hidden" name="subscribe_periodicity" value="year" />
+                    <input type="image" src="//static.liqpay.com/buttons/s1ru.radius.png" name="btn_text" />
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- Free Lecture -->
+<section id="schedule" class="section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Расписание</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>#</th>
+                        <th>Занятие</th>
+                        <th class="text-center">Free</th>
+                        <th class="text-center">Basic</th>
+                        <th class="text-center">Pro</th>
+                        <th class="text-center">Subscription</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><span class="badge">09.01</span></td>
+                        <td>1</td>
+                        <td> Основы синтаксиса Swift</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge">09.04</span></td>
+                        <td>2</td>
+                        <td>Cocoa и Swift</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge">09.08</span></td>
+                        <td>3</td>
+                        <td>Архитектура правильного swift проекта</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge">09.11</span> </td>
+                        <td>4</td>
+                        <td>Работа с сетью и Alamofire</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge">09.15</span></td>
+                        <td>5</td>
+                        <td>Objective C и Swift</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge">09.18</span></td>
+                        <td>6</td>
+                        <td>Дебаг, Тестирование и AppStore</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="badge">09.22</span></td>
+                        <td>7</td>
+                        <td>По результатам голосования группы</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center">&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge">xx.xx</span></td>
+                        <td>∞</td>
+                        <td>Будущие материаллы Swift курсов</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="text-center"><i class="fa fa-check-circle"></i></td>
+                    </tr>
+
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td class="text-center"><h3><span class="label label-success"><a href="https://www.liqpay.com/api/pay?&public_key=i4105549579&amount=1400&currency=UAH&description=SWIFT-Basic&type=buy&pay_way=card,delayed&language=ru" target="_blank" style="color:white;">Оплатить</a></span></h3></td>
+                        <td class="text-center"><h3><span class="label label-success"><a href="https://www.liqpay.com/api/pay?&public_key=i4105549579&amount=2800&currency=UAH&description=SWIFT-PRO&type=buy&pay_way=card,delayed&language=ru" target="_blank" style="color:white;">Оплатить</a></span></h3></td>
+                        <td class="text-center"><h3><span class="label label-success"><a href="https://www.liqpay.com/api/pay?&public_key=i4105549579&amount=5600&currency=UAH&description=SWIFT-Subscription&type=subscribe&pay_way=card,delayed&language=ru&subscribe_date_start=2014-09-01 00:00:00&subscribe_periodicity=year" target="_blank" style="color:white;">Подписаться</a></span></h3></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- TEAM -->
+
+<section id="team" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Своим опытом поделятся</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-sm-6 text-center wow fadeInDown">
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src="img/portraits/1.jpg" alt="" class="img-responsive" style="padding-left: 134px;">
+                    </div>
+                    <div class="team-member-meta">
+                        <h4>Игорь Томич</h4>
+                        <span class="team-member-profession">Лектор</span>
+                        <p>Владелец ITOMYCH STUDIO и многлетний практик мобильной разработки.</p>
+                        <!-- <div class="social">
+                            <a href="http://twitter.com/IgorTomych" class="btn btn-theme" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/igor.tomych" class="btn btn-theme" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 text-center wow fadeInDown" data-wow-delay="0.2s">
+                <div class="team-member">
+                    <div class="team-member-img">
+                        <img src="img/portraits/2.jpg" alt="" class="img-responsive" style="padding-left: 134px;">
+                    </div>
+                    <div class="team-member-meta">
+                        <h4>Артур Нестеренко</h4>
+                        <span class="text-muted team-member-profession">Ассистент лектора</span>
+                        <p>Тимлид iOs направления в ITOMYCH STUDIO.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="section-title">Контакты</h3>
+                <div class="section-title-border"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- <p>
+                    <strong>Integer suscipit</strong> gravida felis quis ornare.
+                    Pellentesque consectetur dui eu nulla vestibulum,
+                    ac euismod diam auctor.
+                </p> -->
+                <ul class="list-contacts">
+                    <li><i class="fa fa-phone"></i> +38 (091) 970-5413</li>
+                    <!-- <li><i class="fa fa-map-marker"></i> 1795 Folsom Ave, Suite 600<br> San Francisco, CA 94107</li> -->
+                    <li><i class="fa fa-envelope-o"></i> <a href="mailto:info@master-up.net">info@master-up.net</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <form class="form-horizontal" action="php/contactForm.php" method="post" role="form" id="contactForm">
+                    <div class="form-group">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control" placeholder="Имя">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" name="contactEmail" class="form-control" placeholder="Электропочта">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <textarea name="message" class="form-control" rows="8" placeholder="Сообщение"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left">
+                                <span class="ladda-label">Отправить</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/bootstrapValidator.min.js"></script>
+<script src="js/validator/emailAddress.js"></script>
+<script src="js/spin.min.js"></script>
+<script src="js/ladda.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/init.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-34540285-2', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Такси Marselle, г. Заречный</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen"/>
+    <link rel="stylesheet" href="css/mystyle.css"/>
+    <!-- Window Size -->
+    <script>
+        function resizeWindows() {
+            var client_w, client_h;
+            client_h=document.documentElement.clientHeight-50;
+            client_w=document.documentElement.clientWidth-24;
+            document.getElementById("top").style.width=client_w+"px";
+            document.getElementById("top").style.height=client_h+"px";
+
+
+        }
+    </script>
+</head>
+<body onresize="resizeWindows()" onload="resizeWindows()">
+<nav class="navbar navbar-inverse" role="navigation" style="margin-left:2px; margin-right: 2px; margin-top: 3px; margin-bottom: 2px;" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Marselle</a>
+        </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="#">О Нас</a></li>
+            <li><a href="#">Клиентам</a></li>
+            <li><a href="#">Водителям</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Еще Ссылка</a></li>
+        </ul>
+    </div>
+    </div>
+
+</nav>
+<div class="row logotype" id="top">
+    <div class="col-md-3">logo.png</div>
+    <div class="col-md-6"><h1>Hello World</h1></div>
+    <div class="col-md-3">
+        Телефоны: 655-655<br>600-444
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

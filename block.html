@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Блокировка водителей</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+<body>
+<div class="container">
+<h1>Блокируем неугодных с улыбкой</h1>
+    <div class="row">
+        <div class="col-lg-6 col-sm-6 col-xs-6">
+            <a class="btn btn-sm btn-warning" href="#">Заблокировать</a>
+            <a class="btn btn-sm btn-warning" href="#">Список заблокированных</a>
+            <a class="btn btn-sm btn-warning" href="#">Еще какой нибуть пункт</a>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-6">
+            <div class="text-right">
+                <a href="#" class="btn btn-sm btn-info">Вход</a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="jumbotron">
+        <h1>Внимание!!!</h1>
+        <p>Разблокировать водителя НЕЛЬЗЯ, у нас тут нет амнистии, после блокировки необходимо выйти из программы нажав кнопочку выйти наверху. Если под Вашим именем будут заблокированы невиновные - отвечать Вам. С любовью, Саша:)</p>
+    </div>
+    <div class="text-center">
+        <h2>Заблокировать</h2>
+    </div>
+    <form action="#">
+        Позывной водителя<input type="text" class="form-control" placeholder="Позывной водителя(как в программе)"/>
+        Причины блокировки<input type="text" class="form-control" placeholder="Причина блокировки"/>
+        Время блокировки <input type="text" class="form-control" placeholder="Время блокировки в минутах"/>
+        <br/>
+        <input type="button" value="Block" class="btn btn-warning btn-sm"/>
+
+
+    </form>
+
+</div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
